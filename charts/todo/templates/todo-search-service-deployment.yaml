@@ -6,7 +6,7 @@ metadata:
   labels:
     todo-app-deployment: todo-search-service
 spec:
-  replicas: {{ .Values.replicas.todoSearchServiceDeployment}}
+  replicas: {{ .Values.replicas.todoSearchServiceDeployment }}
   selector:
       matchLabels:
         todo-app-pod: todo-search-service

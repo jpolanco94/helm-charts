@@ -6,7 +6,7 @@ metadata:
   labels:
     todo-app-deployment: todo-cache-service
 spec:
-  replicas: {{ .Values.replicas.todoCacheServiceDeployment}}
+  replicas: {{ .Values.replicas.todoCacheServiceDeployment }}
   selector:
       matchLabels:
         todo-app-pod: todo-cache-service

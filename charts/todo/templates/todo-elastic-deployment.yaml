@@ -6,7 +6,7 @@ metadata:
   labels:
     todo-app-deployment: todo-elastic
 spec:
-  replicas: {{ .Values.replicas.todoElasticDeployment}}
+  replicas: {{ .Values.replicas.todoElasticDeployment }}
   selector:
       matchLabels:
         todo-app-pod: todo-elastic

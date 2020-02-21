@@ -6,7 +6,7 @@ metadata:
   labels:
     todo-app-deployment: todo-cache-ingestion
 spec:
-  replicas: {{ .Values.replicas.todoCacheIngestionDeployment}}
+  replicas: {{ .Values.replicas.todoCacheIngestionDeployment }}
   selector:
       matchLabels:
         todo-app-pod: todo-cache-ingestion

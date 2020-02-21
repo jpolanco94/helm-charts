@@ -6,7 +6,7 @@ metadata:
   labels:
     todo-app-deployment: todo-proxy
 spec:
-  replicas: {{ .Values.replicas.todoProxyDeployment}}
+  replicas: {{ .Values.replicas.todoProxyDeployment }}
   selector:
       matchLabels:
         todo-app-pod: todo-proxy

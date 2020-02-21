@@ -6,7 +6,7 @@ metadata:
   labels:
     todo-app-deployment: todo-storage-service
 spec:
-  replicas: {{ .Values.replicas.todoStorageServiceDeployment}}
+  replicas: {{ .Values.replicas.todoStorageServiceDeployment }}
   selector:
       matchLabels:
         todo-app-pod: todo-storage-service

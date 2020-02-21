@@ -6,7 +6,7 @@ metadata:
   labels:
     todo-app-deployment: todo-rabbitmq
 spec:
-  replicas: {{ .Values.replicas.todoRabbitMqDeployment}}
+  replicas: {{ .Values.replicas.todoRabbitMqDeployment }}
   selector:
       matchLabels:
         todo-app-pod: todo-rabbitmq

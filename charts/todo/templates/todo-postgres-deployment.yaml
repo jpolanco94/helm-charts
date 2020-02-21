@@ -6,7 +6,7 @@ metadata:
   labels:
     todo-app-deployment: todo-postgres
 spec:
-  replicas: {{ .Values.replicas.todoPostgresDeployment}}
+  replicas: {{ .Values.replicas.todoPostgresDeployment }}
   selector:
       matchLabels:
         todo-app-pod: todo-postgres

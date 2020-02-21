@@ -6,7 +6,7 @@ metadata:
   labels:
     todo-app-deployment: todo-search-ingestion
 spec:
-  replicas: {{ .Values.replicas.todoSearchIngestionDeployment}}
+  replicas: {{ .Values.replicas.todoSearchIngestionDeployment }}
   selector:
       matchLabels:
         todo-app-pod: todo-search-ingestion
