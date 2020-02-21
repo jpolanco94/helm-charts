@@ -30,7 +30,7 @@ script:
 after_success:
   - mkdir distribution
   - helm package charts/todo --destination distribution/
-  - helm repo index --url https://<GITHUB_ACCOUNT>.github.io/helm-charts ./distribution/
+  - helm repo index --url https://jpolanco94.github.io/helm-charts ./distribution/
  
 # Publish new Todo App Chart
 deploy:
