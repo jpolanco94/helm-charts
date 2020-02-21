@@ -3,11 +3,11 @@ entries:
   todo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: 2020-02-21T20:12:24.655965655Z
+    created: 2020-02-21T20:16:44.732039384Z
     description: A Helm chart for Kubernetes
-    digest: e36173603c4d45fdef50c29d378f368c269b1557594316383db513e5fef726b4
+    digest: d9d64f543010e5bec8c093f1dbf5eb7137083fd7de172fc305ea3edcaa37c9db
     name: todo
     urls:
     - https://jpolanco94.github.io/helm-charts/todo-0.1.0.tgz
     version: 0.1.0
-generated: 2020-02-21T20:12:24.655441362Z
+generated: 2020-02-21T20:16:44.730873223Z
