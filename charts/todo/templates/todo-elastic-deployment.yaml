@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: {{ template "todo.fullname" . }}-todo
+  namespace: todo
   name: todo-elastic
   labels:
     todo-app-deployment: todo-elastic
 spec:
-  replicas: {{ .Values.replicas.todoElasticDeployment }}
+  replicas: 1
   selector:
       matchLabels:
         todo-app-pod: todo-elastic
